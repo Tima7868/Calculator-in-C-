@@ -9,6 +9,13 @@ int main()
 
     while (true)
     {
+        std::cout<<"* * * * * Rulse * * * * *\n";
+        std::cout<<"* Use '+' to addition\n";
+        std::cout<<"* * Use '-' to subtraction\n";
+        std::cout<<"* * * Use '*' to multiplication\n";
+        std::cout<<"* * * * Use '/' to division\n";
+        std::cout<<"* * * * * Use '**' to exponentiation\n\n\n";
+
         std::cout << "Enter first anction: ";
 
         std::cin >> a;
